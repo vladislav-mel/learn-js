@@ -47,7 +47,7 @@ function checkUser(user, baseUsers) {
 var User = prompt('введите имя!')
 var UserPass = prompt('введите пароль!')
 
-var userArr = [user, userPass]
+var userArr = [User, UserPass]
 
 var check = checkUser(userArr, users)
 
